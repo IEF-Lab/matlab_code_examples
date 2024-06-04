@@ -6,11 +6,11 @@
 This HTML was auto-generated from MATLAB code.
 To make changes, update the MATLAB code and republish this document.
       -->
-<title>basic_plot</title>
+<title>basic_plots</title>
 <meta name="generator" content="MATLAB 23.2">
 <link rel="schema.DC" href="http://purl.org/dc/elements/1.1/">
 <meta name="DC.date" content="2024-06-04">
-<meta name="DC.source" content="basic_plot.m">
+<meta name="DC.source" content="basic_plots.m">
 <style type="text/css">
 html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}:focus{outine:0}ins{text-decoration:none}del{text-decoration:line-through}table{border-collapse:collapse;border-spacing:0}
 
@@ -138,41 +138,41 @@ y =
 <h2 id="2">basic plot</h2>
 <pre class="codeinput">plot(x, y)
 </pre>
-<img vspace="5" hspace="5" src="basic_plot_01.png" alt=""> <h2 id="3">basic plot with grid</h2>
+<img vspace="5" hspace="5" src="basic_plots_01.png" alt=""> <h2 id="3">basic plot with grid</h2>
 <pre class="codeinput">plot(x, y)
 grid <span class="string">on</span>
 </pre>
-<img vspace="5" hspace="5" src="basic_plot_02.png" alt=""> <h2 id="4">scatter</h2>
+<img vspace="5" hspace="5" src="basic_plots_02.png" alt=""> <h2 id="4">scatter</h2>
 <pre class="codeinput">plot(x, y, <span class="string">"o"</span>)
 grid <span class="string">on</span>
 </pre>
-<img vspace="5" hspace="5" src="basic_plot_03.png" alt=""> <h2 id="5">connect circles with solid lines</h2>
+<img vspace="5" hspace="5" src="basic_plots_03.png" alt=""> <h2 id="5">connect circles with solid lines</h2>
 <pre class="codeinput">plot(x, y, <span class="string">"o-"</span>)
 grid <span class="string">on</span>
 </pre>
-<img vspace="5" hspace="5" src="basic_plot_04.png" alt=""> <h2 id="6">connect circles with dash lines</h2>
+<img vspace="5" hspace="5" src="basic_plots_04.png" alt=""> <h2 id="6">connect circles with dash lines</h2>
 <pre class="codeinput">plot(x, y, <span class="string">"o--"</span>)
 grid <span class="string">on</span>
 </pre>
-<img vspace="5" hspace="5" src="basic_plot_05.png" alt=""> <h2 id="7">connect circles with dash lines</h2>
+<img vspace="5" hspace="5" src="basic_plots_05.png" alt=""> <h2 id="7">connect circles with dash lines</h2>
 <pre class="codeinput">plot(x, y, <span class="string">"x--"</span>)
 grid <span class="string">on</span>
 </pre>
-<img vspace="5" hspace="5" src="basic_plot_06.png" alt=""> <h2 id="8">draw multiple lines</h2>
+<img vspace="5" hspace="5" src="basic_plots_06.png" alt=""> <h2 id="8">draw multiple lines</h2>
 <pre class="codeinput">plot(x, y, <span class="string">"x--"</span>)
 hold <span class="string">on</span>
 plot(x, y / 2, <span class="string">"o-"</span>)
 hold <span class="string">off</span>
 grid <span class="string">on</span>
 </pre>
-<img vspace="5" hspace="5" src="basic_plot_07.png" alt=""> <h2 id="9">scatter with two types of data</h2>
+<img vspace="5" hspace="5" src="basic_plots_07.png" alt=""> <h2 id="9">scatter with two types of data</h2>
 <pre class="codeinput">plot(x, y, <span class="string">"o"</span>)
 hold <span class="string">on</span>
 plot(x, y / 2, <span class="string">"o"</span>)
 hold <span class="string">off</span>
 grid <span class="string">on</span>
 </pre>
-<img vspace="5" hspace="5" src="basic_plot_08.png" alt=""> <h2 id="10">add legend</h2>
+<img vspace="5" hspace="5" src="basic_plots_08.png" alt=""> <h2 id="10">add legend</h2>
 <pre class="codeinput">plot(x, y, <span class="string">"o"</span>)
 hold <span class="string">on</span>
 plot(x, y / 2, <span class="string">"o"</span>)
@@ -181,7 +181,7 @@ grid <span class="string">on</span>
 
 legend(<span class="string">"type 1"</span>, <span class="string">"type 2"</span>)
 </pre>
-<img vspace="5" hspace="5" src="basic_plot_09.png" alt=""> <h2 id="11">xlabel, ylabel and title</h2>
+<img vspace="5" hspace="5" src="basic_plots_09.png" alt=""> <h2 id="11">xlabel, ylabel and title</h2>
 <pre class="codeinput">plot(x, y, <span class="string">"o"</span>)
 hold <span class="string">on</span>
 plot(x, y / 2, <span class="string">"o"</span>)
@@ -194,7 +194,7 @@ xlabel(<span class="string">"elappsed time"</span>)
 ylabel(<span class="string">"value [%]"</span>)
 title(<span class="string">"Experiment 1"</span>)
 </pre>
-<img vspace="5" hspace="5" src="basic_plot_10.png" alt=""> <p class="footer">
+<img vspace="5" hspace="5" src="basic_plots_10.png" alt=""> <p class="footer">
 <br>
 <a href="https://www.mathworks.com/products/matlab/">Published with MATLAB&reg; R2023b</a>
 <br>
